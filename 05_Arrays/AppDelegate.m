@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "MKMan.h"
+#import "MKVelo.h"
+#import "MKBeg.h"
+#import "MKPlov.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    MKVelo* velo = [[MKVelo alloc] init];
+    MKBeg* beg = [[MKBeg alloc] init];
+    MKPlov* plov = [[MKPlov alloc] init];
+    
+    velo.name = @"Velosipedist";
+    velo.rost = 1.6f;
+    velo.ves = 55.1f;
+    velo.sex = @"m";
+    
+    beg.name = @"Begun";
+    beg.rost = 1.7f;
+    beg.ves = 60.1f;
+    beg.sex = @"m";
+    
+    plov.name = @"Plovec";
+    plov.rost = 1.5f;
+    plov.ves = 65.f;
+    plov.sex = @"w";
+    NSArray* mans = [NSArray arrayWithObjects:velo, beg, plov, nil];
+    
+    for (MKMan* man in mans){
+        NSLog(@"Name = %@", man.name);
+        NSLog(@"Rost = %f", man.rost);
+        NSLog(@"Ves = %f", man.ves);
+        NSLog(@"Sex = %@", man.sex);
+        [man movement];
+        NSLog(@"-----------------------");
+    }
+    
+    
+    
+    
+    
     return YES;
 }
 

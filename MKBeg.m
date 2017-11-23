@@ -1,17 +1,17 @@
 //
-//  ViewController.h
+//  MKBeg.m
 //  05_Arrays
 //
 //  Created by mike on 22.11.17.
 //  Copyright © 2017 mike. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MKBeg.h"
 
+@implementation MKBeg
 
-
-@interface ViewController : UIViewController
-
+- (void) movement {
+    NSLog(@"Beg move!");
+}
 
 @end
-

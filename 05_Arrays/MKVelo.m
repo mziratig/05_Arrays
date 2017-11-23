@@ -1,17 +1,17 @@
 //
-//  ViewController.h
+//  MKVelo.m
 //  05_Arrays
 //
 //  Created by mike on 22.11.17.
 //  Copyright © 2017 mike. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MKVelo.h"
 
+@implementation MKVelo
 
-
-@interface ViewController : UIViewController
-
+- (void) movement {
+    NSLog(@"Velo move!");
+}
 
 @end
-

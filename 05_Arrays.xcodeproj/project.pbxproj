@@ -15,6 +15,10 @@
 		27C8BD0F1FC5FEE40076D15F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C8BD0D1FC5FEE40076D15F /* LaunchScreen.storyboard */; };
 		27C8BD1A1FC5FEE40076D15F /* _5_ArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD191FC5FEE40076D15F /* _5_ArraysTests.m */; };
 		27C8BD251FC5FEE40076D15F /* _5_ArraysUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD241FC5FEE40076D15F /* _5_ArraysUITests.m */; };
+		27C8BD341FC5FF0B0076D15F /* MKMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD331FC5FF0B0076D15F /* MKMan.m */; };
+		27C8BD371FC6024A0076D15F /* MKVelo.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD361FC6024A0076D15F /* MKVelo.m */; };
+		27C8BD3A1FC602600076D15F /* MKBeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD391FC602600076D15F /* MKBeg.m */; };
+		27C8BD3D1FC6027C0076D15F /* MKPlov.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD3C1FC6027C0076D15F /* MKPlov.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		27C8BD201FC5FEE40076D15F /* 05_ArraysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 05_ArraysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C8BD241FC5FEE40076D15F /* _5_ArraysUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_ArraysUITests.m; sourceTree = "<group>"; };
 		27C8BD261FC5FEE40076D15F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C8BD321FC5FF0B0076D15F /* MKMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKMan.h; sourceTree = "<group>"; };
+		27C8BD331FC5FF0B0076D15F /* MKMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKMan.m; sourceTree = "<group>"; };
+		27C8BD351FC6024A0076D15F /* MKVelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKVelo.h; sourceTree = "<group>"; };
+		27C8BD361FC6024A0076D15F /* MKVelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKVelo.m; sourceTree = "<group>"; };
+		27C8BD381FC602600076D15F /* MKBeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKBeg.h; path = ../MKBeg.h; sourceTree = "<group>"; };
+		27C8BD391FC602600076D15F /* MKBeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKBeg.m; path = ../MKBeg.m; sourceTree = "<group>"; };
+		27C8BD3B1FC6027C0076D15F /* MKPlov.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKPlov.h; sourceTree = "<group>"; };
+		27C8BD3C1FC6027C0076D15F /* MKPlov.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKPlov.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,14 @@
 			children = (
 				27C8BD021FC5FEE40076D15F /* AppDelegate.h */,
 				27C8BD031FC5FEE40076D15F /* AppDelegate.m */,
+				27C8BD321FC5FF0B0076D15F /* MKMan.h */,
+				27C8BD331FC5FF0B0076D15F /* MKMan.m */,
+				27C8BD351FC6024A0076D15F /* MKVelo.h */,
+				27C8BD361FC6024A0076D15F /* MKVelo.m */,
+				27C8BD381FC602600076D15F /* MKBeg.h */,
+				27C8BD391FC602600076D15F /* MKBeg.m */,
+				27C8BD3B1FC6027C0076D15F /* MKPlov.h */,
+				27C8BD3C1FC6027C0076D15F /* MKPlov.m */,
 				27C8BD051FC5FEE40076D15F /* ViewController.h */,
 				27C8BD061FC5FEE40076D15F /* ViewController.m */,
 				27C8BD081FC5FEE40076D15F /* Main.storyboard */,
@@ -273,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C8BD3A1FC602600076D15F /* MKBeg.m in Sources */,
 				27C8BD071FC5FEE40076D15F /* ViewController.m in Sources */,
+				27C8BD3D1FC6027C0076D15F /* MKPlov.m in Sources */,
 				27C8BD041FC5FEE40076D15F /* AppDelegate.m in Sources */,
+				27C8BD371FC6024A0076D15F /* MKVelo.m in Sources */,
+				27C8BD341FC5FF0B0076D15F /* MKMan.m in Sources */,
 				27C8BD011FC5FEE40076D15F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

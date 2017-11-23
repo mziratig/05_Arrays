@@ -14,4 +14,9 @@
     NSLog(@"Move!");
 }
 
+- (void) movement1 {
+    NSLog(@"Move!");
+}
+
+
 @end

@@ -15,6 +15,5 @@
 @property (strong, nonatomic) NSString* sex;
 
 - (void) movement;
-- (void) movement1;
-
+- (NSString *)description;
 @end

@@ -11,6 +11,7 @@
 #import "MKVelo.h"
 #import "MKBeg.h"
 #import "MKPlov.h"
+#import "MKCoder.h"
 
 @interface AppDelegate ()
 
@@ -26,6 +27,7 @@
     MKVelo* velo = [[MKVelo alloc] init];
     MKBeg* beg = [[MKBeg alloc] init];
     MKPlov* plov = [[MKPlov alloc] init];
+    MKCoder* coder = [[MKCoder alloc] init];
     
     velo.name = @"Velosipedist";
     velo.rost = 1.6f;
@@ -41,16 +43,34 @@
     plov.rost = 1.5f;
     plov.ves = 65.f;
     plov.sex = @"w";
-    NSArray* mans = [NSArray arrayWithObjects:velo, beg, plov, nil];
     
-    for (MKMan* man in mans){
-        NSLog(@"Name = %@", man.name);
-        NSLog(@"Rost = %f", man.rost);
-        NSLog(@"Ves = %f", man.ves);
-        NSLog(@"Sex = %@", man.sex);
-        [man movement];
-        NSLog(@"-----------------------");
+    coder.name = @"Mike";
+    coder.rost = 1.66f;
+    coder.ves = 80.f;
+    coder.sex = @"m";
+    coder.ide = @"xcode";
+    
+    NSArray* mans = [NSArray arrayWithObjects:velo, beg, plov, coder, nil];
+    
+    for (int i = [mans count] - 1 ; i >= 0; i--){
+        NSLog(@"%@", [mans objectAtIndex:i]);
+        [[mans objectAtIndex:i] movement];
     }
+        
+        
+        
+        
+        
+    //for (MKMan* man in mans){
+    //    NSLog(@"%@" , man);
+//        NSLog(@"Name = %@", man.name);
+//        NSLog(@"Rost = %2.2f", man.rost);
+//        NSLog(@"Ves = %2.2f", man.ves);
+ //       NSLog(@"Sex = %@", man.sex);
+
+//        if ([man isKindOfClass:[MKCoder class]]){
+            
+//        }
     
     
     

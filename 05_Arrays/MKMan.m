@@ -14,9 +14,10 @@
     NSLog(@"Move!");
 }
 
-- (void) movement1 {
-    NSLog(@"Move!");
+- (NSString *)description
+{
+    
+    return [NSString stringWithFormat:@"Name = %@, Rost = %2.1f, Ves = %2.1f, Sex = %@", self.name, self.rost, self.ves, self.sex];
 }
-
 
 @end

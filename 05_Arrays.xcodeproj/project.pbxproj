@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272566B81FC6E578007B00D3 /* MKCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 272566B71FC6E578007B00D3 /* MKCoder.m */; };
 		27C8BD011FC5FEE40076D15F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD001FC5FEE40076D15F /* main.m */; };
 		27C8BD041FC5FEE40076D15F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD031FC5FEE40076D15F /* AppDelegate.m */; };
 		27C8BD071FC5FEE40076D15F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C8BD061FC5FEE40076D15F /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		272566B61FC6E578007B00D3 /* MKCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCoder.h; sourceTree = "<group>"; };
+		272566B71FC6E578007B00D3 /* MKCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCoder.m; sourceTree = "<group>"; };
 		27C8BCFC1FC5FEE40076D15F /* 05_Arrays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 05_Arrays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C8BD001FC5FEE40076D15F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27C8BD021FC5FEE40076D15F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				27C8BD031FC5FEE40076D15F /* AppDelegate.m */,
 				27C8BD321FC5FF0B0076D15F /* MKMan.h */,
 				27C8BD331FC5FF0B0076D15F /* MKMan.m */,
+				272566B61FC6E578007B00D3 /* MKCoder.h */,
+				272566B71FC6E578007B00D3 /* MKCoder.m */,
 				27C8BD351FC6024A0076D15F /* MKVelo.h */,
 				27C8BD361FC6024A0076D15F /* MKVelo.m */,
 				27C8BD381FC602600076D15F /* MKBeg.h */,
@@ -294,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C8BD3A1FC602600076D15F /* MKBeg.m in Sources */,
+				272566B81FC6E578007B00D3 /* MKCoder.m in Sources */,
 				27C8BD071FC5FEE40076D15F /* ViewController.m in Sources */,
 				27C8BD3D1FC6027C0076D15F /* MKPlov.m in Sources */,
 				27C8BD041FC5FEE40076D15F /* AppDelegate.m in Sources */,
@@ -531,6 +537,7 @@
 				27C8BD2B1FC5FEE40076D15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27C8BD2C1FC5FEE40076D15F /* Build configuration list for PBXNativeTarget "05_ArraysTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +546,7 @@
 				27C8BD2E1FC5FEE40076D15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27C8BD2F1FC5FEE40076D15F /* Build configuration list for PBXNativeTarget "05_ArraysUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +555,7 @@
 				27C8BD311FC5FEE40076D15F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
